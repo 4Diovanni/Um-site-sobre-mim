@@ -1,0 +1,100 @@
+
+body{
+    
+    background-image: linear-gradient(rgb(254, 247, 220), rgba(51, 51, 51, 0.301));
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
+
+.fonte{
+
+    font-family: 'Vollkorn', serif;
+
+} 
+
+/* seta bola */
+
+.setabola{
+    margin-top: 10px;
+    margin-left: 47%;
+    margin-bottom: 10px;
+}
+
+/* ABAIXO 1 COLUNA*/
+
+
+
+
+.coluna1 p{
+    font-family: 'Vollkorn', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+
+.coluna1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding-top: 20px;
+
+}
+.imagens1{
+    border: 1px solid #000000;
+    border-radius: 70px;
+    filter: drop-shadow(30px 3px 4px rgba(0, 0, 0, 0.3) );
+
+}
+.branco1{
+    font-family: 'Vollkorn', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+
+}
+
+/* ABAIXO 2 COLUNA*/
+
+.coluna2 p{
+    font-family: 'Vollkorn', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+
+}
+.coluna2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding-top: 20px;
+
+}
+.imagens2{
+    border: 1px solid #000000; 
+    border-radius: 70px;
+    filter: drop-shadow(-40px 4px 4px rgba(0, 0, 0, 0.3) );
+    
+}
+.branco2{
+    font-family: 'Vollkorn', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.rodape{
+    height: 90px;
+    background-color: rgba(51, 51, 51, 1);
+
+}
+
+.direitos{
+    display: flex;
+    color: aliceblue;
+    padding: 30px;
+    
+}
+

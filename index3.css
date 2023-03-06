@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
+
+.fonte{
+
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+
+    background-color: rgb(254, 247, 220);
+}
+
+.line-1 {
+
+    height: 1px;
+    width: 100%;
+    background: black;
+    margin-top: 20px;
+}
+
+.imagem{
+
+    display: flex;
+    width: 325px;
+    z-index: 4;
+    flex-direction: column; 
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.cardapio{
+
+    margin-top: 10%;
+    text-align: center;  
+}
+
+.comidas{
+   
+    border-radius: 90px;
+    border: 20px;
+    filter: saturate(1.5) drop-shadow(30px 3px 4px rgba(0, 0, 0, 0.3)); 
+}
+
+
+.playlist{
+
+    display: flex;
+    flex-direction: column;
+    width:  400px;
+    align-items: center;
+    z-index: 5;
+    margin-top: 30px;
+    filter: drop-shadow(-30px 3px 4px rgba(0, 0, 0, 0.3));;
+}
+
+.tudo{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    margin-left: 80px;
+    margin-bottom: 120px;   
+}
+
+.rodape{
+
+    height: 90px;
+    background-color: rgb(15, 15, 15);
+}
+
+.direitos{
+    display: flex;
+    color: aliceblue;
+    padding: 30px;
+    
+}
+.setabola{
+
+    margin-left: 46%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

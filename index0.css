@@ -1,0 +1,60 @@
+/* background */
+/* body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+ .max-width {
+     background-image: url(./images/teste\ para\ pagina.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+
+     width: 100vw;
+     height: 100vh;
+     margin: 0 auto;
+     background-color: #fff;
+ } */
+
+/* #container-imagem {
+    back
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-image: url(./images/Design\ sem\ nome\ \(1\).png);
+} */
+
+body {
+
+    background-image: url(./images/Design\ sem\ nome\ \(1\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+
+    display: flex;
+    width: 113px;
+    height: 80px;
+    margin-top: 315px;
+    margin-right: 70px;
+    transition: all 200ms;
+    background: linear-gradient(180deg, #ffffff -1.09%, #ffffff -1.08%, rgba(189, 189, 189, 0) 101.75%);
+}
+
+.card:hover {
+    margin-top: 275px;
+    width: 226px;
+    height: 140px;
+    background: linear-gradient(244.22deg, #ffffff 23.02%, #ffffff 100%);
+    border: 15px rgba(255, 255, 255, 0.397);
+    box-shadow: 0 0 12px 18px white;
+}
+
+.card:hover body{
+
+    filter: brightness(50%);
+}
+

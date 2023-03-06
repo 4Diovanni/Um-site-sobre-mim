@@ -1,0 +1,116 @@
+body {
+
+    backdrop-filter: brightness(30%);
+    background: url("/Users/LIVRE 06/Videos/Captures/page/index/images/strokes-certo.png") no-repeat fixed;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
+
+.fonte {
+
+    font-family: 'Vollkorn', serif;
+}
+
+.setabola {
+
+    margin-left: 46%;
+    padding-bottom: 20px;
+}
+
+img {
+
+    margin-left: 42%;
+}
+
+.imagen p {
+
+    text-align: center;
+}
+
+.imagen {
+
+    margin-right: 46%;
+}
+
+.caixinha {
+
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 8%;
+    margin-bottom: 30px;
+    margin-left: 42%;
+}
+
+.caixinha2 {
+
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 8%;
+    margin-bottom: 30px;
+    margin-left: 42%;
+}
+
+.caixinha3 {
+
+    color: white;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 8%;
+    margin-bottom: 30px;
+    margin-left: 42%;
+}
+
+.caixa {
+
+    color: white;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 8%;
+    margin-left: 42%;
+}
+
+.quadrado {
+
+    display: flex;
+    margin-top: 43px;
+    margin-left: 45px;
+}
+
+.quadrado2 {
+
+    display: flex;
+    margin-left: 697px;
+}
+
+.quadrado3 {
+
+    display: flex;
+    margin-top: 43px;
+    margin-left: 45px;
+}
+
+.rodape {
+
+    height: 90px;
+    background-color: rgb(15, 15, 15);
+}
+
+.direitos {
+    display: flex;
+    color: aliceblue;
+    padding: 30px;
+
+}
+
+.linha {
+    border: 1px solid white;
+    color: aliceblue;
+    width: 100%;
+}

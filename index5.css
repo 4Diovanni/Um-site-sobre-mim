@@ -1,0 +1,79 @@
+ /* body{
+    
+ } */
+ /* estilo para o rodapé */
+ .rodape {
+    background-color: rgb(15, 15, 15);
+   
+}
+
+.direitos {
+    display: flex;
+    color: aliceblue;
+    padding: 30px;
+
+}
+  /* estilo para o cabeçalho */
+ header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* RGB */
+.reader {
+    background: linear-gradient(89deg, #b60000, #b8b500, #22bb00, #00c2b8, #000ed6, #bb00c5);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+/* colunas */
+.Coluna1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Coluna1 P{
+
+    display: flex;
+    justify-content: center;
+}
+
+.Coluna2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Coluna2 p{
+    display: flex;
+    justify-content: center;
+}
